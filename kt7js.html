@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <script>
+        // 1 задание
+      /*class Email {
+        constructor(name) {
+          this._name = name;
+        }
+ 
+        get _isValid() {
+          if (
+            this._name[2].length > 3 ||
+            this._name[0].includes("$", "*", "#", "%", "^")
+          ) {
+            return false;
+          } else {
+            return true;
+          }
+        }
+
+        set nameEm(value) {
+          this._name = value[0] + "@" + value[1] + "." + value[2];
+        }
+      }
+ 
+      let email = new Email("daria@mail.ru");
+      console.log(email._isValid);*/
+ 
+
+
+
+        // 2 задание
+      /*class Contact extends Email {
+        constructor(name, phone) {
+          super(name);
+          this._phone = phone;
+        }
+ 
+        get phoneType() {
+          if (this._phone.length === 12) {
+            return "Мобильный";
+          } else if (this._phone.length === 18) {
+            return "Городской";
+          } else if (!this._phone[0].includes("+")) {
+            return "Неизвестный";
+          }
+        }
+      }
+      let tel = new Contact("daria@mail.ru", "+79166634019");
+      console.log(tel._isValid);
+      console.log(tel.phoneType);*/
+
+
+
+        // 1 задание
+        /*let url = "https://jsonplaceholder.typicode.com/comments"; // 3 задание
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        const filteredData = data.filter(item => item.email.length > 20);
+        console.log(filteredData);});*/
+    </script>
+  </body>
+</html>
